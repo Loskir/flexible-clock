@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@seregpie/vuetween": "^18.10.25",
     "vue": "^2.5.17"
   },
   "devDependencies": {
