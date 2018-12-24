@@ -22,7 +22,7 @@
     </div>
     <footer class="footer">
       <span>Made with ❤️ by <a href="https://loskir.ru" target="_blank">@Loskir</a></span>
-      <span><a href="https://github.com/" target="_blank">GitHub</a></span>
+      <span><a href="https://github.com/Loskir/flexible-clock" target="_blank">GitHub</a></span>
     </footer>
     <div class="dev-menu" :class="{opened: devMenuOpened}">
       <button class="title" @click="devMenuOpened = !devMenuOpened">Dev menu</button>
