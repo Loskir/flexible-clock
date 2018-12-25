@@ -62,7 +62,7 @@
         if (!this.devMenuOpened) {
           console.log('time_update, next in', 1000-Date.now()%1000, 'ms');
           this.timeTimeout = setTimeout(() => this.startInterval(), 1000-Date.now()%1000);
-          this.minute = Date.now()/60000%3600
+          this.minute = Date.now()/60000%720 - (new Date).getTimezoneOffset()
         }
       }
     },
@@ -71,7 +71,7 @@
         return (this.minute%60)/30*Math.PI
       },
       hourAngle() {
-        return ((this.minute/30)%60)/30*Math.PI
+        return ((this.minute/60)%60)/6*Math.PI
       },
       centerAngle() {
         let a = this.minuteAngle+this.hourAngle;
@@ -154,7 +154,7 @@
     },
     watch: {
       minute(val) {
-        return val %3600;
+        return val %720;
       },
       devMenuOpened(val) {
         if (!val) this.startInterval();
