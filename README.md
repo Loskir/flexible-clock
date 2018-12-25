@@ -1,4 +1,7 @@
-# clock
+# flexible-clock
+
+## Example
+<a href="http://clock.loskir.ru" target="_blank">clock.loskir.ru</a>
 
 ## Project setup
 ```
