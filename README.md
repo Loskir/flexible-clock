@@ -1,7 +1,7 @@
 # flexible-clock
 
-## Example
-<a href="http://clock.loskir.ru" target="_blank">clock.loskir.ru</a>
+## Demo
+<a href="http://loskir.github.io/flexible-clock" target="_blank">loskir.github.io/flexible-clock</a>
 
 ## Project setup
 ```
